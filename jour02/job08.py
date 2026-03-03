@@ -71,7 +71,7 @@ while True:
                     clear()
                     name = input("Entrez le nom : ")
                     race = input("Entrez la race : ")
-                    is_in_cage = input("Est ce que l'animal est dans une cage (1 pour Oui, 0 pour non) :")
+                    is_in_cage = input("Est ce que l'animal est dans une cage (1 pour Oui, 0 pour non) : ")
                     if is_in_cage == "1":
                         id_cage = input("Entrez l'ID de la cage : ")
                     date_naissance = input("Entrez la date de naissance (YYYY-MM-DD) : ")
