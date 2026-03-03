@@ -625,7 +625,7 @@ while True:
                         continue
 
                     found = False
-                    for e in values:
+                    for e in values_cage:
                         if e[0] == usr_id:
                             found = True
                     
@@ -638,7 +638,7 @@ while True:
                     clear()
                     print("Suppression en cours...")
                     
-                    cursor.execute(f"DELETE FROM animal WHERE id = {usr_id}")
+                    cursor.execute(f"DELETE FROM cage WHERE id = {usr_id}")
 
                     cursor.execute("SELECT * FROM animal")
                     values = cursor.fetchall()
