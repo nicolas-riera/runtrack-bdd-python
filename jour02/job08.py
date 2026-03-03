@@ -625,7 +625,7 @@ while True:
                         continue
 
                     found = False
-                    for e in values_cage:
+                    for e in values_cages:
                         if e[0] == usr_id:
                             found = True
                     
